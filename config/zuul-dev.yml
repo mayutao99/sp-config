@@ -29,8 +29,8 @@ zuul:
   retryable: true 
   
 ribbon:
-  ConnectTimeout: 1000
-  ReadTimeout: 1000
+  ConnectTimeout: 3000
+  ReadTimeout: 3000
   MaxAutoRetriesNextServer: 1
   MaxAutoRetries: 1
     
